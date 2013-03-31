@@ -1,0 +1,407 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CD5BD9691703AAF5001C9A00 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD5BD9681703AAF5001C9A00 /* Cocoa.framework */; };
+		CD5BD9731703AAF5001C9A00 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CD5BD9711703AAF5001C9A00 /* InfoPlist.strings */; };
+		CD5BD9751703AAF5001C9A00 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CD5BD9741703AAF5001C9A00 /* main.m */; };
+		CD5BD9791703AAF5001C9A00 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = CD5BD9771703AAF5001C9A00 /* Credits.rtf */; };
+		CD5BD97C1703AAF5001C9A00 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CD5BD97B1703AAF5001C9A00 /* AppDelegate.m */; };
+		CD5BD97F1703AAF5001C9A00 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = CD5BD97D1703AAF5001C9A00 /* MainMenu.xib */; };
+		CD5BD9891703AEE8001C9A00 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD5BD9881703AEE8001C9A00 /* Security.framework */; };
+		CD8195F517067B30004AEB72 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD8195F317067B30004AEB72 /* DetailViewController.m */; };
+		CD8195F617067B30004AEB72 /* DetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CD8195F417067B30004AEB72 /* DetailViewController.xib */; };
+		CD8D12E917065160009B632B /* Certificate.m in Sources */ = {isa = PBXBuildFile; fileRef = CD8D12E817065160009B632B /* Certificate.m */; };
+		CD8D12EB17067540009B632B /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = CD8D12EA17067540009B632B /* MainWindow.xib */; };
+		CD8D12EE1706756C009B632B /* MainWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD8D12ED1706756C009B632B /* MainWindowController.m */; };
+		CDFC902717076DE9004AB820 /* CertViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CDFC902517076DE9004AB820 /* CertViewController.m */; };
+		CDFC902817076DE9004AB820 /* CertViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CDFC902617076DE9004AB820 /* CertViewController.xib */; };
+		CDFC903017078C2A004AB820 /* AsyncSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = CDFC902F17078C2A004AB820 /* AsyncSocket.m */; };
+		CDFC90351708842E004AB820 /* NotificationIdentifierFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = CDFC90341708842E004AB820 /* NotificationIdentifierFormatter.m */; };
+		CDFC90391708851F004AB820 /* NSString+RegexUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = CDFC90381708851F004AB820 /* NSString+RegexUtilities.m */; };
+		CDFC903D1708D0E5004AB820 /* NSTextField+Utilities.m in Sources */ = {isa = PBXBuildFile; fileRef = CDFC903C1708D0E5004AB820 /* NSTextField+Utilities.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CD5BD9651703AAF5001C9A00 /* PushNotifier.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PushNotifier.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD5BD9681703AAF5001C9A00 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		CD5BD96B1703AAF5001C9A00 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		CD5BD96C1703AAF5001C9A00 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		CD5BD96D1703AAF5001C9A00 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CD5BD9701703AAF5001C9A00 /* PushNotifier-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PushNotifier-Info.plist"; sourceTree = "<group>"; };
+		CD5BD9721703AAF5001C9A00 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CD5BD9741703AAF5001C9A00 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CD5BD9761703AAF5001C9A00 /* PushNotifier-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PushNotifier-Prefix.pch"; sourceTree = "<group>"; };
+		CD5BD9781703AAF5001C9A00 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		CD5BD97A1703AAF5001C9A00 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CD5BD97B1703AAF5001C9A00 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CD5BD97E1703AAF5001C9A00 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		CD5BD9881703AEE8001C9A00 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		CD8195F217067B30004AEB72 /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		CD8195F317067B30004AEB72 /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		CD8195F417067B30004AEB72 /* DetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DetailViewController.xib; sourceTree = "<group>"; };
+		CD8D12E717065160009B632B /* Certificate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Certificate.h; sourceTree = "<group>"; };
+		CD8D12E817065160009B632B /* Certificate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Certificate.m; sourceTree = "<group>"; };
+		CD8D12EA17067540009B632B /* MainWindow.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
+		CD8D12EC1706756C009B632B /* MainWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainWindowController.h; sourceTree = "<group>"; };
+		CD8D12ED1706756C009B632B /* MainWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainWindowController.m; sourceTree = "<group>"; };
+		CDFC902417076DE9004AB820 /* CertViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CertViewController.h; sourceTree = "<group>"; };
+		CDFC902517076DE9004AB820 /* CertViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CertViewController.m; sourceTree = "<group>"; };
+		CDFC902617076DE9004AB820 /* CertViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CertViewController.xib; sourceTree = "<group>"; };
+		CDFC902E17078C2A004AB820 /* AsyncSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AsyncSocket.h; sourceTree = "<group>"; };
+		CDFC902F17078C2A004AB820 /* AsyncSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AsyncSocket.m; sourceTree = "<group>"; };
+		CDFC90331708842E004AB820 /* NotificationIdentifierFormatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NotificationIdentifierFormatter.h; sourceTree = "<group>"; };
+		CDFC90341708842E004AB820 /* NotificationIdentifierFormatter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NotificationIdentifierFormatter.m; sourceTree = "<group>"; };
+		CDFC90371708851F004AB820 /* NSString+RegexUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+RegexUtilities.h"; sourceTree = "<group>"; };
+		CDFC90381708851F004AB820 /* NSString+RegexUtilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+RegexUtilities.m"; sourceTree = "<group>"; };
+		CDFC903A1708B533004AB820 /* DetailViewControllerDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewControllerDelegate.h; sourceTree = "<group>"; };
+		CDFC903B1708D0E5004AB820 /* NSTextField+Utilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSTextField+Utilities.h"; sourceTree = "<group>"; };
+		CDFC903C1708D0E5004AB820 /* NSTextField+Utilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSTextField+Utilities.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CD5BD9621703AAF5001C9A00 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD5BD9891703AEE8001C9A00 /* Security.framework in Frameworks */,
+				CD5BD9691703AAF5001C9A00 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CD5BD95C1703AAF5001C9A00 = {
+			isa = PBXGroup;
+			children = (
+				CD5BD96E1703AAF5001C9A00 /* PushNotifier */,
+				CD5BD9671703AAF5001C9A00 /* Frameworks */,
+				CD5BD9661703AAF5001C9A00 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CD5BD9661703AAF5001C9A00 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CD5BD9651703AAF5001C9A00 /* PushNotifier.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CD5BD9671703AAF5001C9A00 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CD5BD9881703AEE8001C9A00 /* Security.framework */,
+				CD5BD9681703AAF5001C9A00 /* Cocoa.framework */,
+				CD5BD96A1703AAF5001C9A00 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CD5BD96A1703AAF5001C9A00 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CD5BD96B1703AAF5001C9A00 /* AppKit.framework */,
+				CD5BD96C1703AAF5001C9A00 /* CoreData.framework */,
+				CD5BD96D1703AAF5001C9A00 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		CD5BD96E1703AAF5001C9A00 /* PushNotifier */ = {
+			isa = PBXGroup;
+			children = (
+				CDFC9036170884EE004AB820 /* Categories */,
+				CDFC9032170883FE004AB820 /* Formatters */,
+				CDFC903117078C50004AB820 /* ViewControllers */,
+				CDFC902A17078A2E004AB820 /* Network */,
+				CD5BD97A1703AAF5001C9A00 /* AppDelegate.h */,
+				CD5BD97B1703AAF5001C9A00 /* AppDelegate.m */,
+				CD8D12EC1706756C009B632B /* MainWindowController.h */,
+				CD8D12ED1706756C009B632B /* MainWindowController.m */,
+				CD8D12EA17067540009B632B /* MainWindow.xib */,
+				CD5BD97D1703AAF5001C9A00 /* MainMenu.xib */,
+				CD5BD96F1703AAF5001C9A00 /* Supporting Files */,
+			);
+			path = PushNotifier;
+			sourceTree = "<group>";
+		};
+		CD5BD96F1703AAF5001C9A00 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CD5BD9701703AAF5001C9A00 /* PushNotifier-Info.plist */,
+				CD5BD9711703AAF5001C9A00 /* InfoPlist.strings */,
+				CD5BD9741703AAF5001C9A00 /* main.m */,
+				CD5BD9761703AAF5001C9A00 /* PushNotifier-Prefix.pch */,
+				CD5BD9771703AAF5001C9A00 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CDFC902A17078A2E004AB820 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				CDFC902E17078C2A004AB820 /* AsyncSocket.h */,
+				CDFC902F17078C2A004AB820 /* AsyncSocket.m */,
+				CD8D12E717065160009B632B /* Certificate.h */,
+				CD8D12E817065160009B632B /* Certificate.m */,
+			);
+			name = Network;
+			sourceTree = "<group>";
+		};
+		CDFC903117078C50004AB820 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				CD8195F217067B30004AEB72 /* DetailViewController.h */,
+				CD8195F317067B30004AEB72 /* DetailViewController.m */,
+				CD8195F417067B30004AEB72 /* DetailViewController.xib */,
+				CDFC902417076DE9004AB820 /* CertViewController.h */,
+				CDFC902517076DE9004AB820 /* CertViewController.m */,
+				CDFC902617076DE9004AB820 /* CertViewController.xib */,
+				CDFC903A1708B533004AB820 /* DetailViewControllerDelegate.h */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		CDFC9032170883FE004AB820 /* Formatters */ = {
+			isa = PBXGroup;
+			children = (
+				CDFC90331708842E004AB820 /* NotificationIdentifierFormatter.h */,
+				CDFC90341708842E004AB820 /* NotificationIdentifierFormatter.m */,
+			);
+			name = Formatters;
+			sourceTree = "<group>";
+		};
+		CDFC9036170884EE004AB820 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				CDFC90371708851F004AB820 /* NSString+RegexUtilities.h */,
+				CDFC90381708851F004AB820 /* NSString+RegexUtilities.m */,
+				CDFC903B1708D0E5004AB820 /* NSTextField+Utilities.h */,
+				CDFC903C1708D0E5004AB820 /* NSTextField+Utilities.m */,
+			);
+			name = Categories;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CD5BD9641703AAF5001C9A00 /* PushNotifier */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD5BD9821703AAF5001C9A00 /* Build configuration list for PBXNativeTarget "PushNotifier" */;
+			buildPhases = (
+				CD5BD9611703AAF5001C9A00 /* Sources */,
+				CD5BD9621703AAF5001C9A00 /* Frameworks */,
+				CD5BD9631703AAF5001C9A00 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PushNotifier;
+			productName = PushNotifier;
+			productReference = CD5BD9651703AAF5001C9A00 /* PushNotifier.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CD5BD95D1703AAF5001C9A00 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Doug Mason";
+			};
+			buildConfigurationList = CD5BD9601703AAF5001C9A00 /* Build configuration list for PBXProject "PushNotifier" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CD5BD95C1703AAF5001C9A00;
+			productRefGroup = CD5BD9661703AAF5001C9A00 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CD5BD9641703AAF5001C9A00 /* PushNotifier */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CD5BD9631703AAF5001C9A00 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD5BD9731703AAF5001C9A00 /* InfoPlist.strings in Resources */,
+				CD5BD9791703AAF5001C9A00 /* Credits.rtf in Resources */,
+				CD5BD97F1703AAF5001C9A00 /* MainMenu.xib in Resources */,
+				CD8D12EB17067540009B632B /* MainWindow.xib in Resources */,
+				CD8195F617067B30004AEB72 /* DetailViewController.xib in Resources */,
+				CDFC902817076DE9004AB820 /* CertViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CD5BD9611703AAF5001C9A00 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD5BD9751703AAF5001C9A00 /* main.m in Sources */,
+				CD5BD97C1703AAF5001C9A00 /* AppDelegate.m in Sources */,
+				CD8D12E917065160009B632B /* Certificate.m in Sources */,
+				CD8D12EE1706756C009B632B /* MainWindowController.m in Sources */,
+				CD8195F517067B30004AEB72 /* DetailViewController.m in Sources */,
+				CDFC902717076DE9004AB820 /* CertViewController.m in Sources */,
+				CDFC903017078C2A004AB820 /* AsyncSocket.m in Sources */,
+				CDFC90351708842E004AB820 /* NotificationIdentifierFormatter.m in Sources */,
+				CDFC90391708851F004AB820 /* NSString+RegexUtilities.m in Sources */,
+				CDFC903D1708D0E5004AB820 /* NSTextField+Utilities.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CD5BD9711703AAF5001C9A00 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CD5BD9721703AAF5001C9A00 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		CD5BD9771703AAF5001C9A00 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CD5BD9781703AAF5001C9A00 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		CD5BD97D1703AAF5001C9A00 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CD5BD97E1703AAF5001C9A00 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CD5BD9801703AAF5001C9A00 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		CD5BD9811703AAF5001C9A00 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		CD5BD9831703AAF5001C9A00 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PushNotifier/PushNotifier-Prefix.pch";
+				INFOPLIST_FILE = "PushNotifier/PushNotifier-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		CD5BD9841703AAF5001C9A00 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PushNotifier/PushNotifier-Prefix.pch";
+				INFOPLIST_FILE = "PushNotifier/PushNotifier-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CD5BD9601703AAF5001C9A00 /* Build configuration list for PBXProject "PushNotifier" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD5BD9801703AAF5001C9A00 /* Debug */,
+				CD5BD9811703AAF5001C9A00 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD5BD9821703AAF5001C9A00 /* Build configuration list for PBXNativeTarget "PushNotifier" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD5BD9831703AAF5001C9A00 /* Debug */,
+				CD5BD9841703AAF5001C9A00 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CD5BD95D1703AAF5001C9A00 /* Project object */;
+}

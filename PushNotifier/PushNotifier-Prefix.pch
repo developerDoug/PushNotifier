@@ -1,0 +1,12 @@
+//
+// Prefix header for all source files of the 'PushNotifier' target in the 'PushNotifier' project
+//
+
+#ifdef __OBJC__
+    #import <Cocoa/Cocoa.h>
+#endif
+
+#define DEFAULT_NOTIFICATION_ID @"00000000-00000000-00000000-00000000-00000000-00000000-00000000-00000000"
+#define APNS_DEVELOPMENT @"Apple Development Push Services"
+#define APNS_DEVELOPMENT_IOS @"Apple Development IOS Push Services"
+#define DEFAULT_TIMEOUT 10.0f
